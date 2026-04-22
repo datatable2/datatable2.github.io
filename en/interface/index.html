@@ -1,0 +1,1548 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../advanced/">
+      
+      
+        <link rel="next" href="../about/">
+      
+      
+        
+          <link rel="alternate" href="../../interface/" hreflang="uk">
+        
+          <link rel="alternate" href="./" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>🔧 Interface Settings - DataTable2 Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#interface-settings" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../" title="DataTable2 Docs" class="md-header__button md-logo" aria-label="DataTable2 Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DataTable2 Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              🔧 Interface Settings
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Темна тема"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Темна тема" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Світла тема"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Світла тема" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../interface/" hreflang="uk" class="md-select__link">
+              Українська
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="DataTable2 Docs" class="md-nav__button md-logo" aria-label="DataTable2 Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DataTable2 Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🚀 Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📚 Basic Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arrays/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📂 Working with Arrays
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../questions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📝 Working with Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📊 Building Tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔍 Filters and Weighting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ✨ Advanced Features
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔧 Interface Settings
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔧 Interface Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table Styles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Table Styles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-to-find-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where to find it
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#built-in-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Built-in styles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#style-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Style elements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters-for-each-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameters for each element
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-new-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating a new style
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-a-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying a style
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-a-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deleting a style
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-a-style-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing a style element
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#style-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Style files
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#localization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Localization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Localization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-change-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to change language
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saving-and-loading-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Saving and Loading Settings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Saving and Loading Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automatic-saving" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic saving
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manual-saveload" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manual save/load
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-saved" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is saved
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-window-tabs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main Window Tabs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Log
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ℹ️ About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📋 Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eula/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📃 EULA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🙏 Credits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table Styles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Table Styles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-to-find-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where to find it
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#built-in-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Built-in styles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#style-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Style elements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters-for-each-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameters for each element
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-new-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating a new style
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-a-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying a style
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-a-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deleting a style
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-a-style-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing a style element
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#style-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Style files
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#localization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Localization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Localization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-change-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to change language
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saving-and-loading-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Saving and Loading Settings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Saving and Loading Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automatic-saving" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic saving
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manual-saveload" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manual save/load
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-saved" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is saved
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-window-tabs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main Window Tabs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Log
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="interface-settings">Interface Settings</h1>
+<h2 id="table-styles">Table Styles</h2>
+<p>Styles define the appearance of tables in the Excel file: fonts, colors, alignment.</p>
+<h3 id="where-to-find-it">Where to find it</h3>
+<p><strong>Styles</strong> tab in the main window.</p>
+<h3 id="built-in-styles">Built-in styles</h3>
+<p>The program includes several ready-made styles:</p>
+<table>
+<thead>
+<tr>
+<th>Style</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>default</code></td>
+<td>Standard style (Arial, 10pt, black-and-white with colored accents)</td>
+</tr>
+<tr>
+<td><code>black_and_white</code></td>
+<td>Black and white style</td>
+</tr>
+<tr>
+<td><code>orange</code></td>
+<td>Style with orange accents</td>
+</tr>
+<tr>
+<td><code>red_and_blue</code></td>
+<td>Style with red and blue accents</td>
+</tr>
+</tbody>
+</table>
+<h3 id="style-elements">Style elements</h3>
+<p>Each style consists of a set of elements corresponding to parts of the table:</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>info</code></td>
+<td>Information row (filter, split)</td>
+</tr>
+<tr>
+<td><code>td.basedata</code></td>
+<td>Base data (number of respondents)</td>
+</tr>
+<tr>
+<td><code>td.basedata_low</code></td>
+<td>Base data with low base (marker)</td>
+</tr>
+<tr>
+<td><code>td.basetext</code></td>
+<td>"Base" / "Total" text</td>
+</tr>
+<tr>
+<td><code>td.corner</code></td>
+<td>Corner cell (intersection of rows and columns)</td>
+</tr>
+<tr>
+<td><code>td.data</code></td>
+<td>Main table data (percentages, counts)</td>
+</tr>
+<tr>
+<td><code>td.meandata</code></td>
+<td>Statistics data (mean, median, etc.)</td>
+</tr>
+<tr>
+<td><code>td.meantext</code></td>
+<td>Statistics text ("Mean", "Median", etc.)</td>
+</tr>
+<tr>
+<td><code>td.q1alt</code></td>
+<td>Question alternatives in rows (Left)</td>
+</tr>
+<tr>
+<td><code>td.q1text</code></td>
+<td>Question text in rows (Left)</td>
+</tr>
+<tr>
+<td><code>td.q1total</code></td>
+<td>Total row for rows</td>
+</tr>
+<tr>
+<td><code>td.q2alt</code></td>
+<td>Question alternatives in columns (Top)</td>
+</tr>
+<tr>
+<td><code>td.q2text</code></td>
+<td>Question text in columns (Top)</td>
+</tr>
+<tr>
+<td><code>td.q2total</code></td>
+<td>Total column for columns</td>
+</tr>
+<tr>
+<td><code>td.stat</code></td>
+<td>Statistics rows</td>
+</tr>
+<tr>
+<td><code>td.totaldata</code></td>
+<td>Data in Total row/column</td>
+</tr>
+<tr>
+<td><code>td.totalstat</code></td>
+<td>Statistics in Total row/column</td>
+</tr>
+<tr>
+<td><code>td.signifabc</code></td>
+<td>Column letter labels (A, B, C...)</td>
+</tr>
+<tr>
+<td><code>td.signif</code></td>
+<td>Significance cells</td>
+</tr>
+<tr>
+<td><code>td.signif_more</code></td>
+<td>Significantly higher (green highlight)</td>
+</tr>
+<tr>
+<td><code>td.signif_less</code></td>
+<td>Significantly lower (pink highlight)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="parameters-for-each-element">Parameters for each element</h3>
+<p>Each style element can be configured with:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FontName</strong></td>
+<td><code>Calibri</code>, <code>Arial</code>, <code>Tahoma</code>, <code>Verdana</code></td>
+</tr>
+<tr>
+<td><strong>FontSize</strong></td>
+<td>Font size (number)</td>
+</tr>
+<tr>
+<td><strong>FontBold</strong></td>
+<td>Bold: <code>true</code> / <code>false</code></td>
+</tr>
+<tr>
+<td><strong>FontItalic</strong></td>
+<td>Italic: <code>true</code> / <code>false</code></td>
+</tr>
+<tr>
+<td><strong>FontColor</strong></td>
+<td>Text color (format <code>$RRGGBB</code>)</td>
+</tr>
+<tr>
+<td><strong>HorizontalAlign</strong></td>
+<td><code>left</code>, <code>center</code>, <code>justify</code>, <code>right</code></td>
+</tr>
+<tr>
+<td><strong>VerticalAlign</strong></td>
+<td><code>top</code>, <code>middle</code>, <code>bottom</code></td>
+</tr>
+<tr>
+<td><strong>BackgroundColor</strong></td>
+<td>Background color (format <code>$RRGGBB</code>)</td>
+</tr>
+<tr>
+<td><strong>WordWrap</strong></td>
+<td>Word wrap: <code>true</code> / <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="creating-a-new-style">Creating a new style</h3>
+<ol>
+<li>Click the <strong>New Style</strong> button (➕)</li>
+<li>Enter a style name (only letters <code>a-z</code>, <code>0-9</code> and <code>_</code>)</li>
+<li>Configure each element by double-clicking in the elements list</li>
+</ol>
+<h3 id="copying-a-style">Copying a style</h3>
+<ol>
+<li>Select a style from the list</li>
+<li>Click the <strong>Copy Style</strong> button (📋)</li>
+<li>Enter a new name</li>
+</ol>
+<h3 id="deleting-a-style">Deleting a style</h3>
+<ol>
+<li>Select a style (not <code>default</code>)</li>
+<li>Click the <strong>Delete Style</strong> button (🗑)</li>
+</ol>
+<blockquote>
+<p>⚠️ The <code>default</code> style cannot be deleted.</p>
+</blockquote>
+<h3 id="editing-a-style-element">Editing a style element</h3>
+<ol>
+<li>Select an element in the left list</li>
+<li>Double-click → the edit window opens</li>
+<li>Change font, color, alignment parameters</li>
+<li>Click <strong>OK</strong> to save</li>
+</ol>
+<p>A table preview with the current style is displayed to the right of the elements list.</p>
+<h3 id="style-files">Style files</h3>
+<p>Styles are stored in the <code>styles/</code> folder in INI format:</p>
+<div class="highlight"><pre><span></span><code><span class="k">[td.data]</span>
+<span class="na">FontName</span><span class="o">=</span><span class="s">arial</span>
+<span class="na">FontSize</span><span class="o">=</span><span class="s">10</span>
+<span class="na">FontBold</span><span class="o">=</span><span class="s">false</span>
+<span class="na">FontItalic</span><span class="o">=</span><span class="s">false</span>
+<span class="na">HorizontalAlign</span><span class="o">=</span><span class="s">center</span>
+<span class="na">VerticalAlign</span><span class="o">=</span><span class="s">middle</span>
+<span class="na">FontColor</span><span class="o">=</span><span class="s">$000000</span>
+<span class="na">BackgroundColor</span><span class="o">=</span><span class="s">$FFFFFF</span>
+<span class="na">WordWrap</span><span class="o">=</span><span class="s">true</span>
+</code></pre></div>
+<hr />
+<h2 id="localization">Localization</h2>
+<p>The program supports two interface languages:</p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🇺🇦 Ukrainian</td>
+<td><code>uk</code></td>
+</tr>
+<tr>
+<td>🇺🇸 English</td>
+<td><code>en</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="how-to-change-language">How to change language</h3>
+<p>Menu <strong>Language</strong> → select the desired language.</p>
+<p>Localization files are stored in the <code>lang/</code> folder:</p>
+<ul>
+<li><code>DataTable2.uk.po</code> / <code>DataTable2.uk.mo</code> — Ukrainian</li>
+<li><code>DataTable2.en.po</code> / <code>DataTable2.en.mo</code> — English</li>
+<li><code>DataTable2.pot</code> — template for new translations</li>
+</ul>
+<hr />
+<h2 id="saving-and-loading-settings">Saving and Loading Settings</h2>
+<h3 id="automatic-saving">Automatic saving</h3>
+<p>Array settings (filter, weight, split, table parameters, transform, style) are automatically saved in an XML file next to the FRM array.</p>
+<h3 id="manual-saveload">Manual save/load</h3>
+<p>Menu <strong>Settings</strong>:</p>
+<ul>
+<li><strong>Save settings</strong> — saves current settings</li>
+<li><strong>Load settings</strong> — restores saved settings</li>
+</ul>
+<h3 id="what-is-saved">What is saved</h3>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Left_Signs</code></td>
+<td>List of variables in rows</td>
+</tr>
+<tr>
+<td><code>Top_Signs</code></td>
+<td>List of variables in columns</td>
+</tr>
+<tr>
+<td><code>Weight_Sign</code></td>
+<td>Weighting variable</td>
+</tr>
+<tr>
+<td><code>Filter_Formula</code></td>
+<td>Filter formula</td>
+</tr>
+<tr>
+<td><code>Split_Sign</code></td>
+<td>Split variable</td>
+</tr>
+<tr>
+<td><code>TabOptions</code></td>
+<td>All table settings (statistics, significance, boxes, sorting, etc.)</td>
+</tr>
+<tr>
+<td><code>Transform</code></td>
+<td>Transform text</td>
+</tr>
+<tr>
+<td><code>StylesName</code></td>
+<td>Selected style name</td>
+</tr>
+<tr>
+<td><code>SavedFilters</code></td>
+<td>Saved filters</td>
+</tr>
+<tr>
+<td><code>Lang</code></td>
+<td>Interface language</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="main-window-tabs">Main Window Tabs</h2>
+<table>
+<thead>
+<tr>
+<th>Tab</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signs</strong></td>
+<td>Array question list, alternative preview, quick filter</td>
+</tr>
+<tr>
+<td><strong>Table Settings</strong></td>
+<td>Rows/columns, statistics, significance, boxes, sorting</td>
+</tr>
+<tr>
+<td><strong>Filters</strong></td>
+<td>Filter formula input, saved filters</td>
+</tr>
+<tr>
+<td><strong>Transform</strong></td>
+<td>Create new variables by formula</td>
+</tr>
+<tr>
+<td><strong>Output</strong></td>
+<td>View built tables (Excel), file list</td>
+</tr>
+<tr>
+<td><strong>Styles</strong></td>
+<td>Table style management</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="log">Log</h2>
+<p>At the bottom of the window there is a log panel displaying:</p>
+<ul>
+<li>Information messages (white background)</li>
+<li>Warnings (yellow background)</li>
+<li>Errors (red background)</li>
+</ul>
+<p>The log helps track operation execution and diagnose errors.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
