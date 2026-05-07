@@ -1,0 +1,1317 @@
+
+<!doctype html>
+<html lang="uk" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="DataTable2 Documentation">
+      
+      
+        <meta name="author" content="datatable2">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.40">
+    
+    
+      
+        <title>Advanced Features - DataTable2 Docs</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../assets/stylesheets/modern/main.fba56155.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/modern/palette.dfe2e883.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Навігація"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#advanced-features" class="md-skip">
+          Перейти до змісту
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Хедер">
+    <a href="../.." title="DataTable2 Docs" class="md-header__button md-logo" aria-label="DataTable2 Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Навігація">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DataTable2 Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Advanced Features
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Шукати">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Шукати">
+  <button type="button" class="md-search__button">
+    Шукати
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навігація" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DataTable2 Docs" class="md-nav__button md-logo" aria-label="DataTable2 Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    DataTable2 Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Головна
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Швидкий початок
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Основні поняття
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arrays/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Робота з масивами
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../questions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Робота з питаннями
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Побудова таблиць
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../filters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Фільтри та зважування
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Розширені можливості
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Налаштування інтерфейсу
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Про програму
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Changelog
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eula/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  EULA
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../credits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Credits
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Зміст">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Зміст
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#transform-creating-new-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Transform (Creating New Variables)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Transform (Creating New Variables)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-to-find-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Where to find it
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transform-syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Transform Syntax
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-recoding-from-one-variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Example: recoding from one variable
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-program-sample-paste-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Example: program sample (Paste Sample)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Important rules
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-and-load" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Save and load
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recoding-alternatives-recode" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Recoding Alternatives (Recode)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#significance-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Significance Testing
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Significance Testing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#significance-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Significance settings
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Significance settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#test-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Test type
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Comparison
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#significance-level-z0" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Significance level (Z₀)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#significance-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Significance output
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#significance-markers" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Significance markers
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Additional options
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topbox-and-bottombox" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        TopBox and BottomBox
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="TopBox and BottomBox">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-topbox-bottombox" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        What is TopBox / BottomBox?
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-add-topboxbottombox" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        How to add TopBox/BottomBox
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#box-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Box properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-to-spss-sav" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Export to SPSS (.sav)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Export to SPSS (.sav)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        How to export
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-created-during-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        What is created during export
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-specifics" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Export specifics
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table-merging" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Table Merging
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="advanced-features">Advanced Features<a class="headerlink" href="#advanced-features" title="Permanent link">&para;</a></h1>
+<h2 id="transform-creating-new-variables">Transform (Creating New Variables)<a class="headerlink" href="#transform-creating-new-variables" title="Permanent link">&para;</a></h2>
+<p>Transform allows you to create new questions (variables) by recoding existing data.</p>
+<h3 id="where-to-find-it">Where to find it<a class="headerlink" href="#where-to-find-it" title="Permanent link">&para;</a></h3>
+<p><strong>Transform</strong> tab → text input field.</p>
+<h3 id="transform-syntax">Transform Syntax<a class="headerlink" href="#transform-syntax" title="Permanent link">&para;</a></h3>
+<p>Each new variable is described by a block of lines separated by an empty line:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>New question name
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>ALT1 {filter_condition} Alternative text 1
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>ALT2 {filter_condition} Alternative text 2
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>...
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>NA {filter_condition}
+</span></code></pre></div>
+<p>Where:</p>
+<ul>
+<li><strong>First line</strong> — text of the new question</li>
+<li><strong>Following lines</strong> — recoding rules:<ul>
+<li><code>ALT</code> — number of the new alternative (integer) or <code>NA</code> (to set "No Answer")</li>
+<li><code>{condition}</code> — filter formula in curly braces (same syntax as filters)</li>
+<li>Text after <code>}</code> — alternative name</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>💡 If curly braces are empty <code>{}</code>, the condition applies to <strong>all</strong> questionnaires that have not yet received a value.</p>
+</blockquote>
+<h3 id="example-recoding-from-one-variable">Example: recoding from one variable<a class="headerlink" href="#example-recoding-from-one-variable" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Age groups
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>1 {[3]&gt;=18 and [3]&lt;=24} 18-24
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>2 {[3]&gt;=25 and [3]&lt;=34} 25-34
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>3 {[3]&gt;=35 and [3]&lt;=44} 35-44
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>4 {[3]&gt;=45 and [3]&lt;=54} 45-54
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>5 {[3]&gt;=55} 55+
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>NA {[3]&lt;18}
+</span></code></pre></div>
+<p>Creates a new nominal variable (<code>qn</code>) with 5 alternatives based on metric variable #3 (age).</p>
+<h3 id="example-program-sample-paste-sample">Example: program sample (Paste Sample)<a class="headerlink" href="#example-program-sample-paste-sample" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>New Var
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>1 {[2]=1 or [2]=2} One
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>2 {[2]=3} Two
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>3 {[2]=4 and [2]=5} Three
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>4 {[2]=6} Four
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>4 {[2]=1} Five
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>NA {[2]=6}
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>7 {[2]=9} Seven
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>8 {} Eight
+</span></code></pre></div>
+<h3 id="important-rules">Important rules<a class="headerlink" href="#important-rules" title="Permanent link">&para;</a></h3>
+<ul>
+<li>If a questionnaire matches <strong>multiple</strong> conditions, it will receive <strong>multiple</strong> alternatives → the new variable type will be <code>qj</code> (multi-variant)</li>
+<li>If each questionnaire matches only <strong>one</strong> condition — the type will be <code>qn</code> (nominal)</li>
+<li>The <code>NA {condition}</code> line forcibly sets "No Answer" for questionnaires matching the condition</li>
+<li>Empty curly braces <code>{}</code> means "everything else" (questionnaires without a value)</li>
+<li>Multiple transforms are separated by an <strong>empty line</strong></li>
+</ul>
+<h3 id="save-and-load">Save and load<a class="headerlink" href="#save-and-load" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Right-click menu → <strong>Save transform</strong> — saves text to file</li>
+<li>Right-click menu → <strong>Load transform</strong> — loads text from file</li>
+<li>Right-click menu → <strong>Paste sample</strong> — inserts a transform example</li>
+</ul>
+<hr />
+<h2 id="recoding-alternatives-recode">Recoding Alternatives (Recode)<a class="headerlink" href="#recoding-alternatives-recode" title="Permanent link">&para;</a></h2>
+<p>For quick regrouping of alternatives of an existing variable without writing a transform:</p>
+<p>The <code>RecodeIntoNewVar</code> function creates a new variable by combining alternatives of the source variable.</p>
+<p>Alternative structure is defined by lines:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>1+2
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>3
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>4+5+6
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>7-10
+</span></code></pre></div>
+<ul>
+<li><code>1+2</code> — alternatives 1 and 2 are combined into one new alternative</li>
+<li><code>3</code> — alternative 3 remains as is</li>
+<li><code>4+5+6</code> — alternatives 4, 5 and 6 are combined</li>
+<li><code>7-10</code> — range of alternatives from 7 to 10</li>
+</ul>
+<hr />
+<h2 id="significance-testing">Significance Testing<a class="headerlink" href="#significance-testing" title="Permanent link">&para;</a></h2>
+<p>Significance testing determines whether the difference between values in table columns is statistically significant.</p>
+<h3 id="significance-settings">Significance settings<a class="headerlink" href="#significance-settings" title="Permanent link">&para;</a></h3>
+<p>On the <strong>Table Settings</strong> tab in the <strong>Significance</strong> section:</p>
+<h4 id="test-type">Test type<a class="headerlink" href="#test-type" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>✅ Percentage significance</td>
+<td>Tests difference between percentages in columns</td>
+</tr>
+<tr>
+<td>✅ Mean significance</td>
+<td>Tests difference between means</td>
+</tr>
+</tbody>
+</table>
+<h4 id="comparison">Comparison<a class="headerlink" href="#comparison" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>With Total</td>
+<td>Each column is compared with the Total column</td>
+</tr>
+<tr>
+<td>With previous column</td>
+<td>Each column is compared with the previous one</td>
+</tr>
+<tr>
+<td>Between columns</td>
+<td>Columns are compared pairwise (letter notation A, B, C...)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="significance-level-z0">Significance level (Z₀)<a class="headerlink" href="#significance-level-z0" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Z-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1%</td>
+<td>Strictest level</td>
+</tr>
+<tr>
+<td>5%</td>
+<td>Standard level</td>
+</tr>
+<tr>
+<td>10%</td>
+<td>Most lenient level</td>
+</tr>
+</tbody>
+</table>
+<h4 id="significance-output">Significance output<a class="headerlink" href="#significance-output" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>In Count column</td>
+<td>Markers added to count cells</td>
+</tr>
+<tr>
+<td>In Col% column</td>
+<td>Markers added to percentage cells</td>
+</tr>
+<tr>
+<td>In separate column</td>
+<td>Separate column for each significance marker</td>
+</tr>
+</tbody>
+</table>
+<h4 id="significance-markers">Significance markers<a class="headerlink" href="#significance-markers" title="Permanent link">&para;</a></h4>
+<p>Different symbols can be chosen for marking significant differences:</p>
+<table>
+<thead>
+<tr>
+<th>Style</th>
+<th>Higher</th>
+<th>Lower</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Triangles</td>
+<td>▲</td>
+<td>▼</td>
+</tr>
+<tr>
+<td>Arrows</td>
+<td>⮝</td>
+<td>⮟</td>
+</tr>
+<tr>
+<td>Arrows (Unicode)</td>
+<td>↑</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>Asterisks</td>
+<td>**</td>
+<td>*</td>
+</tr>
+</tbody>
+</table>
+<h4 id="additional-options">Additional options<a class="headerlink" href="#additional-options" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Use unweighted base</strong> — unweighted base (BaseUW) is used for significance calculation</li>
+</ul>
+<hr />
+<h2 id="topbox-and-bottombox">TopBox and BottomBox<a class="headerlink" href="#topbox-and-bottombox" title="Permanent link">&para;</a></h2>
+<p>TopBoxes allow you to combine top or bottom scale alternatives into one group.</p>
+<h3 id="what-is-topbox-bottombox">What is TopBox / BottomBox?<a class="headerlink" href="#what-is-topbox-bottombox" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>TopBox</strong> — sum of top alternatives (e.g., ratings 9+10 on a 10-point scale)</li>
+<li><strong>BottomBox</strong> — sum of bottom alternatives (e.g., ratings 1+2)</li>
+</ul>
+<h3 id="how-to-add-topboxbottombox">How to add TopBox/BottomBox<a class="headerlink" href="#how-to-add-topboxbottombox" title="Permanent link">&para;</a></h3>
+<ol>
+<li>On the <strong>Table Settings</strong> tab in the <strong>Boxes</strong> section</li>
+<li>Right-click</li>
+<li>Choose a preset or create your own:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Preset</th>
+<th>Alternatives</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bottom 1+2</td>
+<td>Alternatives 1, 2</td>
+</tr>
+<tr>
+<td>Bottom 1+2+3</td>
+<td>Alternatives 1, 2, 3</td>
+</tr>
+<tr>
+<td>Top 4+5</td>
+<td>Alternatives 4, 5</td>
+</tr>
+<tr>
+<td>Top 9+10</td>
+<td>Alternatives 9, 10</td>
+</tr>
+<tr>
+<td>Top 8+9+10</td>
+<td>Alternatives 8, 9, 10</td>
+</tr>
+</tbody>
+</table>
+<p>Boxes can be added separately to rows (Left) and columns (Top).</p>
+<h3 id="box-properties">Box properties<a class="headerlink" href="#box-properties" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Caption</strong> — box name in the table</li>
+<li><strong>Alternatives</strong> — set of PassportValue alternatives included in the box</li>
+<li><strong>Hide</strong> — hide individual alternatives included in the box</li>
+<li>Boxes participate in mean statistics</li>
+</ul>
+<hr />
+<h2 id="export-to-spss-sav">Export to SPSS (.sav)<a class="headerlink" href="#export-to-spss-sav" title="Permanent link">&para;</a></h2>
+<p>The program allows exporting an FRM array to SPSS <code>.sav</code> format for further analysis.</p>
+<h3 id="how-to-export">How to export<a class="headerlink" href="#how-to-export" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Menu <strong>FRM → Export to SPSS</strong></li>
+<li>Choose encoding:<ul>
+<li><strong>UTF-8</strong> — for modern SPSS versions</li>
+<li><strong>CP1251</strong> — for older SPSS versions</li>
+</ul>
+</li>
+</ol>
+<h3 id="what-is-created-during-export">What is created during export<a class="headerlink" href="#what-is-created-during-export" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>array_name.sav</code></td>
+<td>SPSS data file</td>
+</tr>
+<tr>
+<td><code>array_name_spss11.mdg</code></td>
+<td>MDG file for SPSS 11</td>
+</tr>
+<tr>
+<td><code>array_name_spss12.mdg</code></td>
+<td>MDG file for SPSS 12+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="export-specifics">Export specifics<a class="headerlink" href="#export-specifics" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Metric variables (<code>qm</code>) → SPSS numeric variables (Measure = Scale)</li>
+<li>Nominal variables (<code>qn</code>) → SPSS numeric variables (Measure = Nominal) with value labels</li>
+<li>Multi-variant variables (<code>qj</code>) → set of dichotomous variables (v5_1, v5_2, ...) + MDG set</li>
+<li>Missing value for all variables = -99</li>
+<li>Variable names: <code>v1</code>, <code>v2</code>, <code>v3</code>... (for <code>qj</code>: <code>v5_1</code>, <code>v5_2</code>, ...)</li>
+</ul>
+<blockquote>
+<p>⚠️ <strong>Requirement:</strong> SPSS export requires the IBM SPSS I/O Modules library (<code>spssio64.dll</code> / <code>libspssdio.so.1</code>), which must be in the <code>lib/win64/</code> or <code>lib/lin64/</code> folder.</p>
+</blockquote>
+<hr />
+<h2 id="table-merging">Table Merging<a class="headerlink" href="#table-merging" title="Permanent link">&para;</a></h2>
+<p>Tables can be merged:</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No Merging</td>
+<td>Each table separately (default)</td>
+</tr>
+<tr>
+<td>by Column</td>
+<td>Tables are merged horizontally (by columns)</td>
+</tr>
+<tr>
+<td>by Row</td>
+<td>Tables are merged vertically (by rows)</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Повернутись нагору
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 The authors
+
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"../..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"search":"../../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"Скопійовано в буфер","clipboard.copy":"Скопіювати в буфер","search.result.more.one":"Ще 1 збіг на цій сторінці","search.result.more.other":"Ще # збігів на цій сторінці","search.result.none":"Збігів не знайдено","search.result.one":"Знайдено 1 збіг","search.result.other":"Знайдено # збігів","search.result.placeholder":"Розпочніть писати для пошуку","search.result.term.missing":"Не знайдено запиту","select.version":"Обрати версію"},"version":null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.dbc0afdc.min.js"></script>
+      
+    
+  </body>
+</html>

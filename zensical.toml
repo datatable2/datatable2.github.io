@@ -11,18 +11,18 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Documentation"
+site_name = "DataTable2 Docs"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "DataTable2 Documentation"
 
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "<your name here>"
+site_author = "datatable2"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -44,10 +44,21 @@ Copyright &copy; 2026 The authors
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+ nav = [
+  { "Головна" = "index.md" },
+  { "Швидкий початок" = "quickstart.md" },
+  { "Основні поняття" = "concepts.md" },
+  { "Робота з масивами" = "arrays.md" },
+  { "Робота з питаннями" = "questions.md" },
+  { "Побудова таблиць" = "tables.md" },
+  { "Фільтри та зважування" = "filters.md" },
+  { "Розширені можливості" = "advanced.md" },
+  { "Налаштування інтерфейсу" = "interface.md" },
+  { "Про програму" = "about.md" },
+  { "Changelog" = "changelog.md" },
+  { "EULA" = "eula.md" },
+  { "Credits" = "credits.md" },
+ ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -108,7 +119,7 @@ Copyright &copy; 2026 The authors
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
+language = "uk"
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
@@ -303,6 +314,13 @@ toggle.name = "Switch to light mode"
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
+
+[project.extra]
+#alternate = [
+#     { name = "Ukrainian", link = "/uk/", lang = "uk" },
+##    { name = "English", link = "/en/", lang = "en" }
+#]
+
 
 # ----------------------------------------------------------------------------
 # In this section you can configure the Markdown extensions that are used when
