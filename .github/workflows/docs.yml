@@ -1,29 +1,29 @@
-name: Documentation
+# .github/workflows/docs.yml у публічному репозиторії
+name: Deploy Documentation
+
 on:
   push:
-    branches:
-      - master
-      - main
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+    branches: [main]
+
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/configure-pages@v5
-      - uses: actions/checkout@v5
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      
+      - uses: astral-sh/setup-uv@v1
         with:
-          python-version: 3.x
-      - run: pip install zensical
-      - run: zensical build --clean 
-      - uses: actions/upload-pages-artifact@v4
+          version: "latest"
+      
+      - uses: actions/setup-python@v4
         with:
-          path: site
-      - uses: actions/deploy-pages@v4
-        id: deployment
+          python-version: '3.12'
+      
+      - run: uv sync
+      
+      - run: uv run zensical build
+      
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
