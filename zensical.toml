@@ -3,6 +3,7 @@ site_name = "DataTable2 Documentation"
 title = "DataTable2 Docs"
 description = "DataTable2 Documentation"
 authors = ["pablissimo77"]
+page_url = "https://datatable2.github.io"
 
 [project.theme]
 name = "material"
