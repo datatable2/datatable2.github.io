@@ -3,15 +3,18 @@ site_name = "DataTable2 Documentation"
 title = "DataTable2 Docs"
 description = "DataTable2 Documentation"
 authors = ["pablissimo77"]
-language = "uk"
-docs_dir = "docs/uk"
 
 [project.theme]
 name = "material"
 logo = "assets/logo.png"
 favicon = "assets/favicon.ico"
+language = "uk"
 
 [build]
 static_dir = "docs/assets"
 
-site_url = "https://datatable2.github.io"
+[project.extra]
+alternate = [
+    { name = "Ukrainian", link = "/uk/", lang = "uk" },
+    { name = "English", link = "/en/", lang = "en" }
+]
