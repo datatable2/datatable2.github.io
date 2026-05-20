@@ -1,5 +1,5 @@
 [project]
-name = "DataTable2 Documentation"
+site_name = "DataTable2 Documentation"
 title = "DataTable2 Docs"
 description = "DataTable2 Documentation"
 authors = ["pablissimo77"]

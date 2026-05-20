@@ -1,16 +1,3 @@
-+++
-weight = 100
-date = "2023-05-03T22:37:22+01:00"
-draft = false
-author = "Colin Wilson"
-title = "Quickstart"
-icon = "rocket_launch"
-toc = true
-description = "A quickstart guide to creating new content in Lotus Docs"
-publishdate = "2023-05-03T22:37:22+01:00"
-tags = ["Beginners"]
-+++
-
 # DataTable2
 
 __DataTable2__ — це десктопна програма для роботи з __FRM-масивами__ (формат даних соціологічних/маркетингових досліджень). Програма написана на __Free Pascal / Lazarus__ (Delphi-сумісний режим) і компілюється під __Windows (win64)__ та __Linux (lin64)__.
