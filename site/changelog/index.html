@@ -1,0 +1,2006 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../about/">
+      
+      
+        <link rel="next" href="../quickstart/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="zensical-0.0.43">
+    
+    
+      
+        <title>Changelog - DataTable2 Documentation</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.fba56155.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="./.." title="DataTable2 Documentation" class="md-header__button md-logo" aria-label="DataTable2 Documentation" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="DataTable2 Documentation">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navigation">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DataTable2 Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./.." title="DataTable2 Documentation" class="md-nav__button md-logo" aria-label="DataTable2 Documentation" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="DataTable2 Documentation">
+
+    </a>
+    DataTable2 Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  DataTable2
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  DataTable
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Changelog
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Changelog
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-74" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 74
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-66" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 66
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-65" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 65
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-64" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 64
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-63" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 63
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-62" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 62
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-61" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 61
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-60" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 60
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-59" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 59
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-58" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 58
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-57" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 57
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-56" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 56
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-55" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 55
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-54" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 54
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-53" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 53
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-52" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 52
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-51" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 51
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-50" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 50
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-49" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 49
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-48" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 48
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-47" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 47
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-46" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 46
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-45" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 45
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-44" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 44
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-43" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 43
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-43_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 43
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-41" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 41
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-40" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 40
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-39" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 39
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-19032008" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 (19.03.2008)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v1-2006" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v1 (2006)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Швидкий початок
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Advansed
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Advansed
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advansed/advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Розширені можливості
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Arrays
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Arrays
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arrays/arrays/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Робота з масивами
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Concepts
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Concepts
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Основні поняття
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Eula
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Eula
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eula/credits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  THIRD-PARTY SOFTWARE NOTICES AND CREDITS
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eula/eula/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  ЛІЦЕНЗІЙНА УГОДА КІНЦЕВОГО КОРИСТУВАЧА (EULA)
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Filters
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Filters
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/filters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Фільтри та зважування
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Interface
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Interface
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interface/interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Налаштування інтерфейсу
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Questions
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Questions
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../questions/questions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Робота з питаннями (ознаками)
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Tables
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Tables
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tables/tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Побудова таблиць
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-74" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 74
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-66" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 66
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-65" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 65
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-64" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 64
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-63" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 63
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-62" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 62
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-61" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 61
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-60" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 60
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-59" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 59
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-58" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 58
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-57" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 57
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-56" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 56
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-55" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 55
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-54" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 54
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-53" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 53
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-52" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 52
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-51" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 51
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-50" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 50
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-49" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 49
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-48" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 48
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-47" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 47
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-46" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 46
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-45" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 45
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-44" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 44
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-43" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 43
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-43_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 43
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-41" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 41
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-40" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 40
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-build-39" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 Build 39
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21-19032008" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v2.1 (19.03.2008)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v1-2006" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        v1 (2006)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
+<ul>
+<li>🟩 Додано</li>
+<li>🟥 Видалено </li>
+<li>🟨 Змінено</li>
+</ul>
+<h2 id="v21-build-74">v2.1 Build 74<a class="headerlink" href="#v21-build-74" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟨 Змінено спосіб збереження налаштувань до масива. Тепер все зберігається у xml-файлі</li>
+<li>🟩 <code>[Tables]</code> Переоблен дизайн Weight, Split, Filter</li>
+<li>🟩 <code>[Tables]</code> Переоблен дизайн налаштування таблиць</li>
+<li>🟩 <code>[Ouput]</code> Новий вивід таблиць. Тепер таблиці одразу створюються як excel-файл, а не як html-файл, і виводяться у компонент tsWorksheetGrid</li>
+<li>🟩 <code>[Ouput]</code> Створення і управління стилями таблиць</li>
+<li>🟩 Переписано під win64</li>
+<li>🟩 Додана linux-версія</li>
+<li>🟥 Видалена підтримка мов у паспорті</li>
+<li>🟩 <code>[Tables]</code> Можливість виводити в таблиці незважені тотали і бази (TotalUW, BaseUW)</li>
+<li>🟩 <code>[Tables]</code> Можливість виводити малтипл-запитання із відсотками, що сумуються в 100% (аналог spss: Responses, Column Responses %)</li>
+<li>🟩 <code>[Tables]</code> Можливість виводити порожні таблиці, як таблиці із нулями (зараз порожні таблиці схлопуються в empty Table)</li>
+<li>🟩 <code>[Tables]</code> Додані статистики median, sum, min, max</li>
+<li>🟩 <code>[Tables]</code> Додана можливість рахувати значущості до попередньої колонки</li>
+<li>🟨 <code>[Ouput]</code> Колір позначок значущостей</li>
+<li>🟨 <code>[Tables]</code> Перероблені ТопБокси. Інакше визначаються, беруть участь у статитистиках середніх.</li>
+<li>🟩 <code>[Tables]</code> Середні тепер рахуються по PassportValue, а не по CountValue. Це дозволяє корректно рахувати середні із значеннями 0 і у випадках, коли PassportValue не співпадає із CountValue</li>
+<li>🟩 <code>[Ouput]</code> Файли таблиць тепер сортуються в зворотньому порядку (зверху нові, знизу старі)</li>
+<li>🟨 Прискорено видалення відфільтрованих анкет</li>
+<li>🟨 Змінено збереження налаштувань программи та массивів</li>
+<li>🟥 Видалено роботу із скриптами (закладка Scripts)</li>
+</ul>
+<h2 id="v21-build-66">v2.1 Build 66<a class="headerlink" href="#v21-build-66" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟥 Знято захист по строку дії </li>
+<li>🟥 Видалено роботу з чартами (закладка Charts)</li>
+</ul>
+<h2 id="v21-build-65">v2.1 Build 65<a class="headerlink" href="#v21-build-65" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Программа переведа на Lazarus. </li>
+</ul>
+<h2 id="v21-build-64">v2.1 Build 64<a class="headerlink" href="#v21-build-64" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Добавлена поддержка имён переменных. Фильтры можно 
+записывать как с помощью номера признака, так и используя его имя</li>
+<li>🟩 <code>[Tables]</code> Добавлена колонка Table%</li>
+<li>🟨 Быстрая фильтрация признаков стала действительно быстрой</li>
+<li>🟨 Исправлены ошибки в разделе Script</li>
+<li>🟨 Исправлены мелкие ошибки</li>
+<li>🟩 <code>[Chart]</code> Начало разработки нового раздела чартов</li>
+</ul>
+<h2 id="v21-build-63">v2.1 Build 63<a class="headerlink" href="#v21-build-63" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟥 Не використовується ANQ</li>
+<li>🟨 Російська мова змінена на українську мову</li>
+<li>🟩 Українська мова</li>
+</ul>
+<h2 id="v21-build-62">v2.1 Build 62<a class="headerlink" href="#v21-build-62" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 <code>[Tables]</code> Добавлена настройка «Прятать 0-ячейки». Если она отмечена, то в таблицах ячейки, в которых 0 анкет, будут пустыми.</li>
+<li>🟩 <code>[Ouput]</code> На странице «Вывод» добавлена кнопка удаления всех HTM-файлов с таблицами.</li>
+</ul>
+<h2 id="v21-build-61">v2.1 Build 61<a class="headerlink" href="#v21-build-61" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Добавлена чистка «НеОтветов» одного или нескольких выделенных признаков выбранной альтернативой (для номинальных и мультивариантных типов вопросов). Осуществляется из меню правой клавиши мыши на списке вопросов.</li>
+<li>🟩 Если в тексте вопроса встречается #skip#, он подкрашивается серым цветом в списке вопросов</li>
+</ul>
+<h2 id="v21-build-60">v2.1 Build 60<a class="headerlink" href="#v21-build-60" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Добавлен экспорт в SPSS. Без настроек. Экспортирует так, как программа FRMSPSS4 с настройками по умолчанию. Создает файл .sav и файлы MDG в двух форматах (старого и нового)</li>
+<li>🟨 Исправлена незначительная мелкая ошибка при создании мультивариантного вопроса в трансформации.</li>
+</ul>
+<h2 id="v21-build-59">v2.1 Build 59<a class="headerlink" href="#v21-build-59" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Поддержка мультиязычного паспорта. Максимум три языка.</li>
+</ul>
+<h2 id="v21-build-58">v2.1 Build 58<a class="headerlink" href="#v21-build-58" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 <code>[Ouput]</code> Выводится информация о уровне значимости.</li>
+<li>🟩 <code>[Chart]</code> Добавлена возможность выводить Серии чартов в строках или в колонках (чекбокс «Строка/Стобец»)</li>
+<li>🟩 <code>[Filter]</code> Добавлена функция «nf» - порядковый номер анкеты</li>
+<li>🟨 <code>[Transform]</code> Улучшена трансформация</li>
+<li>🟨 Исправление, касающееся загрузки большого списка вопросов для построения таблиц</li>
+</ul>
+<h2 id="v21-build-57">v2.1 Build 57<a class="headerlink" href="#v21-build-57" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 <code>[Tables]</code> Добавлена возможность считать значимости различий взвешенных процентов по невзвешенной базе.</li>
+<li>🟩 <code>[Chart]</code> Добавлена возможность выбора темплейта презентации перед построением чартов.</li>
+<li>🟨 Исправлена ошибка в редактировании текста вопроса и его альтернатив.</li>
+</ul>
+<h2 id="v21-build-56">v2.1 Build 56<a class="headerlink" href="#v21-build-56" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Добавлена возможность «бросать» массивы в программу из проводника</li>
+<li>🟩 <code>[Filter]</code> Добавлена кнопка для удаления отфильтрованных анкет</li>
+<li>🟩 <code>[Filter]</code> Добавлена функция caj() – количество отмеченных альтернатив в мультивариантном вопросе. Для метрических и номинальных функия возвращает 1, если есть ответ, 0 – если нет ответов.</li>
+<li>🟩<code>[Transform]</code> Добавлена возможность создавать сразу несколько новых признаков.</li>
+<li>🟨 Исправлена мелкая неточность в раскраске значимосте различий средних при сравнени с тоталом.</li>
+</ul>
+<h2 id="v21-build-55">v2.1 Build 55<a class="headerlink" href="#v21-build-55" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 <code>[Tables]</code> Добавлена возможность редактирования формулировки вопросов и названия альтернатив в специальном окне, которое вызывается пунктом «Редактировать» в выпадающем меню по правой клавише мыши на списке вопросов. В окне можно увидеть поле для редактирования текста вопроса и список альтернатив. Изменения вносятся в массив по нажатию кнопки «Сохранить» или по кнопкам со стрелками (в таком случае будет осуществлен переход на предыдущий или следующий вопрос). Так же можно через буфер обмена внести изменения в весь список альтернатив.  Чтобы отменить неправильные изменения, нужно закрыть окно редактирования или правой клавишей по списку альтернатив и выбрать меню «Обновить».
+После редактирования массив обязательно необходимо сохранить (Главное меню – FRM – Сохранить FRM массив).</li>
+</ul>
+<h2 id="v21-build-54">v2.1 Build 54<a class="headerlink" href="#v21-build-54" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 <code>[Tables]</code> Добавлена статитистика Count Unweighted (Невзвешенные каунты)</li>
+</ul>
+<h2 id="v21-build-53">v2.1 Build 53<a class="headerlink" href="#v21-build-53" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 <code>[Chart]</code> Построение чартов теперь учитывает взвешивание и фильтр (без сплитов)</li>
+<li>🟩 <code>[Chart]</code> Добавлена возможность построения средних и топбоксов в разбивке. Все вопросы идут один за другим горизонтально. При использовании данной опции, все вопросы должны иметь один и тот же список альтернатив. Для средних можно использовать настройку «считать средние только для выбранных альтернатив» из основных таблиц.</li>
+<li>🟩 <code>[Chart]</code> Добавлена кнопка для вывода всех признаков в один чарт, вертикальное расположение. Например, можно вывести вопросы «Спонтанное знание марки 1-упоминание», «Спонтанное знание марки», «Знание марки с подсказкой» в один чарт, т.е. это фактически одномерки, вертикально, одна за другой. При использовании данной кнопки, все вопросы должны иметь один и тот же список альтернатив.</li>
+<li>🟨 <code>[Tables]</code> Мелкие недоточеты.</li>
+<li>🟩 <code>[Chart]</code> Добавлен выбор вставки заголовков – в титл чарта или в титл слайда.</li>
+<li>🟨 <code>[Tables]</code> При прописывании альтернатив в топбоксах можно использовать запись с минусом, типа 1-10, что будет означать все альтернативы подряд с первой по десятую.</li>
+<li>🟩 <code>[Tables]</code> При сравнении значимости различий средних с тоталом, ячейки подкрашиваются двумя разными цветами – для среднего  больше-равного тотальному среднему и меньше. Цвет подкрашивания регулируется в файле «table.css» в папке программы CSS.</li>
+<li>🟩 <code>[Output]</code> Добавлен выбор способа раскраски таблиц. Сделал парочку цветовых схем. Принимаются заявки на цветовое оформление.</li>
+<li>🟥 <code>[Output]</code> Убрал подсветку строк – браузер сильно тормозит при большом количестве таблиц.</li>
+</ul>
+<h2 id="v21-build-52">v2.1 Build 52<a class="headerlink" href="#v21-build-52" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟨 <code>[Filters]</code> Переписана проверка фильтра – теперь быстрее и дополнительно, если массив взвешен, показывает количество взвешенных отфильтрованных анкет.</li>
+<li>🟩 <code>[Output]</code> Добавлена подсветка строк в таблицах вывода. Подсветку можно зафиксировать кликом.</li>
+<li>🟩 <code>[Output]</code> В закладке Output выводится время, потраченное на построение таблиц.</li>
+<li>🟨 <code>[Tables]</code> Исправлены мелкие ошибки с прогресс-баром, отображающего процесс построения таблиц.</li>
+<li>🟨 <code>[Tables]</code> Исправлен вывод метрических вопросов, когда в таблице показывались лишние знаки после запятой.</li>
+<li>🟩 <code>[Tables]</code> Улучшена работа с топбоксами. Теперь можно использовать не только номинальные вопросы, но и мультивариантные.</li>
+<li>🟨 <code>[Tables]</code> Изменён дизайн настроек, теперь можно более гибко формировать структуру строк.</li>
+<li>🟨 <code>[Tables]</code> Исправлена работа вывода статистик для средних с учетом топбоксов – теперь все правильно.</li>
+<li>🟨 <code>[Tables]</code> Исправлена незначительная ошибка вывода альтернатив, при комбинации настроек «выводить альтернативы, помеченные #skip#» и «выводить пустые альтернативы»</li>
+<li>🟨 <code>[Charts]</code> Исправлено размещение папки для темплейтов чартов. Теперь это стандартная папка темплейтов MS Office</li>
+<li>🟩 <code>[Charts]</code> Добавлен предосмотр темплейта чарта в виде картинки с типом чарта.</li>
+<li>🟩 <code>[Charts]</code> Вывод титла чарта</li>
+<li>🟩 <code>[Charts]</code> Сортировка данных в рядках и в столбиках по тоталу для вывода на чарт</li>
+<li>🟩 <code>[Charts]</code> Отображение значимых отличий процентов от Тотала. Пока реализуется путем раскраски ячеек в области данных чарта. Форматирование подписей данных добавлением границы к подписи только для значений со значимостью будет реализовано со следующей версии.</li>
+<li>🟩 <code>[Charts]</code> Возможность расположения нескольких чартов на одном слайде, количество чартов и тип их размещение регулируются. Количество – от 1 до 16. Тип – вертикально, горизонтально, таблицей. Размер чартов подгоняется под заданную область слайда.</li>
+<li>🟩 <code>[Charts]</code> Вывод данных по тоталу на графиках при построении. Не выводятся в чартах, а только в таблице данных.</li>
+<li>🟨 <code>[Charts]</code> Исправлен вывод баз</li>
+</ul>
+<h2 id="v21-build-51">v2.1 Build 51<a class="headerlink" href="#v21-build-51" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Добавлена возможность строить чарты в MS PowerPoint-е 2010 версии.</li>
+<li>🟩 При сравнении значимости различий с тотальными процентами, ячейки подкрашиваются двумя разными цветами – для процента больше-равного тотальному проценту и меньше. Цвет подкрашивания регулируется в файле «table.css» в папке программы CSS.</li>
+<li>🟩 На закладке «Признаки» добавлена кнопка обмена признаков между списками «для таблиц» и «для разбивок».</li>
+<li>🟨 Исправлены существенные и несущественные ошибки.</li>
+</ul>
+<h2 id="v21-build-50">v2.1 Build 50<a class="headerlink" href="#v21-build-50" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Можно не выводить альтернативы, помеченные #skip#</li>
+<li>🟩 Сохранение и загрузка скрипта создания новых признаков</li>
+<li>🟩 Если активен лист «Вывод», то просто выделение признака будет строить одномерку, для быстрого просмотра.</li>
+<li>🟨 Изменена закладка «Настройки»</li>
+<li>🟩 Переписан вывод средних, добавлен вывод стандартной девиации для средних, стандартной ошибки средних.</li>
+<li>🟩 Значимость различий средних. Алгоритм из программы Alpha. (Экспериментально!)</li>
+</ul>
+<h2 id="v21-build-49">v2.1 Build 49<a class="headerlink" href="#v21-build-49" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟨 Исправлена работа настроек «Рядки: В одну таблицу» и «Колонки: В одну таблицу».</li>
+<li>🟨 Оптимизирован экспорт данных массива в формат csv.</li>
+<li>🟨 Исправлена работа настройки «Не выводить альтернативы» для работы со средними.</li>
+</ul>
+<h2 id="v21-build-48">v2.1 Build 48<a class="headerlink" href="#v21-build-48" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Экспорт данных выбранных признаков в формат csv</li>
+</ul>
+<h2 id="v21-build-47">v2.1 Build 47<a class="headerlink" href="#v21-build-47" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Фильтр признаков</li>
+<li>🟩 Добавлена кнопка остановки построения таблиц</li>
+</ul>
+<h2 id="v21-build-46">v2.1 Build 46<a class="headerlink" href="#v21-build-46" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Добавлен английский интерфейс программы</li>
+</ul>
+<h2 id="v21-build-45">v2.1 Build 45<a class="headerlink" href="#v21-build-45" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟨 Переименование программы в DataTable</li>
+<li>🟩 Теперь работает с ANQ-паспортом.</li>
+<li>🟩 Сохранение массива</li>
+<li>🟩 Создание новых признаков с перекодировкой</li>
+<li>🟩 Загрузка настроек таблиц из буфера обмена</li>
+</ul>
+<h2 id="v21-build-44">v2.1 Build 44<a class="headerlink" href="#v21-build-44" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟨 BugFix</li>
+<li>
+<p>🟩 Загрузка и сохранение ини-файлов таблиц, аналог синтаксиса в спсс
+можно создать ини-файл что-то типа такого:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>filter : `[10]`=1
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>count
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>col%
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>significance
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>left_sign : 13,14,15,16,17,18
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>top_sign : 18
+</span></code></pre></div>
+загрузить и нажать пуск.</p>
+</li>
+<li>
+<p>🟩 В настройках сохраняются и автоматически устанавливаются веса и фильтры</p>
+</li>
+<li>🟩 Работа с фильтрами - сохранение, удаление.</li>
+<li>🟩 Средние для метрических</li>
+<li>🟩 В таблицах выводится текущий фильтр и вес.</li>
+<li>🟨 Сплиты во время фильтра. Раньше неправильно считались. По прежнему сплиты только для двумерок.</li>
+<li>🟥 убрал работу со стилями таблиц - теперь css нужно будет создавать в ручную. Наделаю позже разных стилей</li>
+</ul>
+<h2 id="v21-build-43">v2.1 Build 43<a class="headerlink" href="#v21-build-43" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟨 Значимость различий процентов</li>
+</ul>
+<h2 id="v21-build-43_1">v2.1 Build 43<a class="headerlink" href="#v21-build-43_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Разбивки со сплитами</li>
+</ul>
+<h2 id="v21-build-41">v2.1 Build 41<a class="headerlink" href="#v21-build-41" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟨 Улучшена работа со значимостью различий процентов</li>
+</ul>
+<h2 id="v21-build-40">v2.1 Build 40<a class="headerlink" href="#v21-build-40" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Проверка на пустые строки в ТопБоксах</li>
+<li>🟩 Double Click отправляет признаки в список таблиц, Alt + Double Click отправляет признаки в список разбивок</li>
+<li>🟩 Добавлено форматирования для ячеек со значимостью различий процентов.</li>
+</ul>
+<h2 id="v21-build-39">v2.1 Build 39<a class="headerlink" href="#v21-build-39" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟨 Улучшена работа со списками признаков для построения таблиц</li>
+</ul>
+<h2 id="v21-19032008">v2.1 (19.03.2008)<a class="headerlink" href="#v21-19032008" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Вторая версия</li>
+</ul>
+<h2 id="v1-2006">v1 (2006)<a class="headerlink" href="#v1-2006" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🟩 Первая версия</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":[],"search":"../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6e5f0216.min.js"></script>
+      
+    
+  </body>
+</html>
