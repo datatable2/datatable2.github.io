@@ -4,18 +4,36 @@ title = "DataTable2 Docs"
 description = "DataTable2 Documentation"
 authors = ["pablissimo77"]
 page_url = "https://datatable2.github.io"
+nav = [
+  {"Home" = "index.md"},
+  {"Quickstart" = "quickstart.md"},
+  {"Advanced" = ["advanced/advanced.md"]},
+  {"Data" = ["data/frm-data.md"]},
+  {"Eula/Credits" = ["eula/eula.md", "eula/credits.md"]},
+]
+
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
 
 [project.theme]
 name = "material"
 logo = "assets/DataTable2.png"
 favicon = "assets/DataTable2.ico"
 language = "uk"
+features = [
+    "navigation.expand"
+]
 
 [build]
 static_dir = "docs/assets"
 
-[project.extra]
-alternate = [
-    { name = "Ukrainian", link = "/uk/", lang = "uk" },
-    { name = "English", link = "/en/", lang = "en" }
-]
+#[project.extra]
+#alternate = [
+#    { name = "Ukrainian", link = "/uk/", lang = "uk" },
+#    { name = "English", link = "/en/", lang = "en" }
+#]
+
