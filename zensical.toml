@@ -5,11 +5,23 @@ description = "DataTable2 Documentation"
 authors = ["pablissimo77"]
 page_url = "https://datatable2.github.io"
 nav = [
-  {"Home" = "index.md"},
-  {"Quickstart" = "quickstart.md"},
-  {"Advanced" = ["advanced/advanced.md"]},
-  {"Data" = ["data/frm-data.md"]},
-  {"Eula/Credits" = ["eula/eula.md", "eula/credits.md"]},
+  { "Home" = "index.md" },
+  { "Quickstart" = "quickstart.md" },
+  { "Основні поняття" = "concepts.md" },
+  { "Advanced" = [
+    "advanced/advanced.md",
+    "advanced/filters.md",
+    "advanced/frm-data.md",
+    "advanced/interface.md",
+    "advanced/questions.md",
+    "advanced/tables.md",
+
+  ] },
+  { "Download" = "download.md" },
+  { "Changelog" = "changelog.md" },
+  { "Eula" = "eula.md" },
+  { "Credits" = "credits.md" }
+
 ]
 
 [project.markdown_extensions.pymdownx.caret]
@@ -24,9 +36,7 @@ name = "material"
 logo = "assets/DataTable2.png"
 favicon = "assets/DataTable2.ico"
 language = "uk"
-features = [
-    "navigation.expand"
-]
+
 
 [build]
 static_dir = "docs/assets"
@@ -36,4 +46,3 @@ static_dir = "docs/assets"
 #    { name = "Ukrainian", link = "/uk/", lang = "uk" },
 #    { name = "English", link = "/en/", lang = "en" }
 #]
-
