@@ -9,11 +9,17 @@ title: Interface
 Ознаки (Windows 11)
 ///
 
+![Ознаки (Linux Mint 22.3 - Cinnamon)](assets/images/interface.main.linux.png)
+/// caption
+Ознаки (Linux Mint 22.3 - Cinnamon)
+///
+
 ## Редагування ознаки
 ![Редагування ознаки (Windows 11)](assets/images/interface.sign.edit.png)
 /// caption
 Редагування ознаки (Windows 11)
 ///
+
 ## Налаштування таблиць
 ![Налаштування таблиць (Windows 11)](assets/images/interface.options.png)
 /// caption
