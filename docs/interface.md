@@ -4,25 +4,43 @@ title: Interface
 # Інтерфейс
 
 ## Ознаки
-![interface.main.png](assets/images/interface.main.png)
+![Ознаки (Windows 11)](assets/images/interface.main.png){ loading=lazy }
+/// caption
+Ознаки (Windows 11)
+///
 
 ## Редагування ознаки
-![interface.sign.edit.png](assets/images/interface.sign.edit.png)
-
+![Редагування ознаки (Windows 11)](assets/images/interface.sign.edit.png)
+/// caption
+Редагування ознаки (Windows 11)
+///
 ## Налаштування таблиць
-![interface.options.png](assets/images/interface.options.png)
-
+![Налаштування таблиць (Windows 11)](assets/images/interface.options.png)
+/// caption
+Налаштування таблиць (Windows 11)
+///
 ## Ваги, Спліт, Фільтри
-![interface.weight+split+filter.png](assets/images/interface.weight%2Bsplit%2Bfilter.png)
-
+![Ваги, Спліт, Фільтри (Windows 11)](assets/images/interface.weight%2Bsplit%2Bfilter.png)
+/// caption
+Ваги, Спліт, Фільтри (Windows 11)
+///
 ## Перетворення
-![interface.transform.png](assets/images/interface.transform.png)
-
+![Перетворення (Windows 11)](assets/images/interface.transform.png)
+/// caption
+Перетворення (Windows 11)
+///
 ## Стилі
-![interface.styles.png](assets/images/interface.styles.png)
-
+![Стилі (Windows 11)](assets/images/interface.styles.png)
+/// caption
+Стилі (Windows 11)
+///
 ## Редагування стилю комірки
-![interface.style.edit.png](assets/images/interface.style.edit.png)
-
+![Редагування стилю комірки (Windows 11)](assets/images/interface.style.edit.png)
+/// caption
+Редагування стилю комірки (Windows 11)
+///
 ## Вивід
-![interface.ouput.png](assets/images/interface.ouput.png)
+![Вивід (Windows 11)](assets/images/interface.ouput.png)
+/// caption
+Вивід (Windows 11)
+///
