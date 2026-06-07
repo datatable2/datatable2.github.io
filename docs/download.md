@@ -4,7 +4,9 @@ title: Download
 
 # Завантаження
 
-## DataTable2.75
+### DataTable2.75
+
+Завантажити [DataTable2.75 (Portable)](assets/downloads/DataTable2.75.zip)
 
 ### Інструкція
 
@@ -25,7 +27,3 @@ DataTable2 не має інсталіяційного файлу.
 | DataTable2.linux               | Файл запуску (Linux)                       |
 | [changelog.md](./changelog.md) | Перелік змін                               |
 | DataTable2.settings            | Файл із налаштуваннями                     |
-
-### Посилання
-
-Завантажити [DataTable2.75 (Portable)](assets/downloads/DataTable2.75.zip)
