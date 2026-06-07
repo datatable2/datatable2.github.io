@@ -4,9 +4,9 @@ title: Download
 
 # Завантаження
 
-### DataTable2.75
+### DataTable2.77
 
-Завантажити [DataTable2.75 (Portable)](assets/downloads/DataTable2.75.zip)
+Завантажити [DataTable2.77 (Portable)](assets/downloads/DataTable2.75.zip)
 
 ### Інструкція
 
