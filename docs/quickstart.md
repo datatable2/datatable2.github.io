@@ -5,7 +5,7 @@ title: Quickstart
 
 ## Встановлення та запуск
 
-DataTable2 не вимагає встановлення. Просто завантажте останню версію програми та запустіть файл `DataTable2.exe` (для Windows) або `./DataTable2.linux` (для Linux).
+DataTable2 не вимагає встановлення. Просто [завантажте](download.md) останню версію програми та запустіть файл `DataTable2.exe` (для Windows) або `./DataTable2.linux` (для Linux).
 
 ## Перше відкриття FRM-масиву
 

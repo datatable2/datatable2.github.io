@@ -6,7 +6,8 @@ authors = ["pablissimo77"]
 page_url = "https://datatable2.github.io"
 nav = [
   { "Home" = "index.md" },
-  { "Quickstart" = "quickstart.md" },
+  { "Швидкий старт" = "quickstart.md" },
+  { "Інтерфейс" = "interface.md" },
   { "Основні поняття" = "concepts.md" },
   { "Advanced" = [
     "advanced/advanced.md",
