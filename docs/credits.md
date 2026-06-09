@@ -32,6 +32,6 @@ This software uses icons created by Axialis Software.
 
 Copyright (c) Axialis Software. All rights reserved.
 
-Official website: [http://www.axialis.com](http://www.axialis.com)
+Official website: [https://www.axialis.com](http://www.axialis.com)
 
 ----------------------------------------

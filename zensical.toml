@@ -16,10 +16,10 @@ nav = [
     "advanced/interface.md",
     "advanced/questions.md",
     "advanced/tables.md",
-
   ] },
   { "Download" = "download.md" },
   { "Changelog" = "changelog.md" },
+  { "ToDo" = "todo.md" },
   { "Eula" = "eula.md" },
   { "Credits" = "credits.md" }
 
