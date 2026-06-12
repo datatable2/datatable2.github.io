@@ -25,6 +25,10 @@ nav = [
 
 ]
 
+[project.extra.analytics]
+provider = "google"
+property = "G-MRD6PRZJWH"
+
 [project.markdown_extensions.pymdownx.caret]
 [project.markdown_extensions.pymdownx.keys]
 [project.markdown_extensions.pymdownx.mark]
