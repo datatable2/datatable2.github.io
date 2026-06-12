@@ -6,7 +6,7 @@
 3. Скопіювати необхідні для програми папки та файли
 4. Перевірити файли перекладу (`/lang/*.po`)
 5. Зробити архів і скопіювати його в [docs/assets/downloads](docs/assets/downloads)
-5. Змінити [changelog.md](docs/changelog.md)
-6. Змінити [update.txt](docs/assets/downloads/update.txt)
-7. Змінити [update.json](docs/assets/downloads/update.json)
-8. Commit and push
+6. Змінити [changelog.md](docs/changelog.md)
+7. Змінити [update.txt](docs/assets/downloads/update.txt)
+8. Змінити [update.json](docs/assets/downloads/update.json)
+9. Commit and push
