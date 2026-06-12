@@ -4,16 +4,15 @@ title: Download
 
 # Завантаження
 
-### DataTable2.77
+### DataTable2.78
 
-Завантажити [DataTable2.77 (Portable)](assets/downloads/DataTable2.77.zip)
+Завантажити [DataTable2.78 (Portable)](assets/downloads/DataTable2.78.zip)
 
 ### Інструкція
 
-DataTable2 не має інсталіяційного файлу.
-
+DataTable2 не має інсталяційного файлу.
 - Завантажте файл на диск.
-- Разархівуйте в зручну для вас папку
+- Розархівуйте в зручну для вас папку
 - Запустіть DataTable2.exe або DataTable2.linux
 
 Склад ZIP-архіву:
@@ -25,5 +24,20 @@ DataTable2 не має інсталіяційного файлу.
 | 📂styles                       | Стилі таблиць                              |
 | DataTable2.exe                 | Файл запуску (Windows)                     |
 | DataTable2.linux               | Файл запуску (Linux)                       |
-| [changelog.md](./changelog.md) | Перелік змін                               |
-| DataTable2.settings            | Файл із налаштуваннями                     |
+
+
+
+### Всі доступні версії
+* [DataTable2.78.zip](assets/downloads/DataTable2.78.zip)
+* [DataTable2.77.zip](assets/downloads/DataTable2.77.zip)
+* [DataTable2.76.zip](assets/downloads/DataTable2.76.zip)
+* [DataTable2.66.zip](assets/downloads/DataTable2.66.zip)
+* [DataTable2.65.zip](assets/downloads/DataTable2.65.zip)
+* [DataTable2.64.zip](assets/downloads/DataTable2.64.zip)
+* [DataTable2.63.zip](assets/downloads/DataTable2.63.zip)
+* [DataTable2.62.zip](assets/downloads/DataTable2.62.zip)
+* [DataTable2.61.zip](assets/downloads/DataTable2.61.zip)
+* [DataTable2.60.zip](assets/downloads/DataTable2.60.zip)
+* [DataTable2.51.zip](assets/downloads/DataTable2.51.zip)
+* [DataTable2.48.zip](assets/downloads/DataTable2.48.zip)
+* [DataTable2.45.zip](assets/downloads/DataTable2.45.zip)
