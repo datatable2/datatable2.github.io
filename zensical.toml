@@ -5,24 +5,61 @@ description = "DataTable2 Documentation"
 authors = ["pablissimo77"]
 page_url = "https://datatable2.github.io"
 nav = [
-  { "Home" = "index.md" },
-  { "Швидкий старт" = "quickstart.md" },
-  { "Інтерфейс" = "interface.md" },
-  { "Основні поняття" = "concepts.md" },
-  { "Advanced" = [
-    "advanced/advanced.md",
-    "advanced/filters.md",
-    "advanced/frm-data.md",
-    "advanced/interface.md",
-    "advanced/questions.md",
-    "advanced/tables.md",
-  ] },
-  { "Download" = "download.md" },
-  { "Changelog" = "changelog.md" },
-  { "ToDo" = "todo.md" },
-  { "Eula" = "eula.md" },
-  { "Credits" = "credits.md" }
-
+    { "Home" = "index.md" },
+    { "Основні поняття 🚧" = "concepts.md" },
+    { "Інтерфейс 🚧" = "interface.md" },
+    { "Головне меню 🚧" = "main_menu.md" },
+    { "Вікно ознак 🚧" = ["signs/index.md", { "Вигляд 🚧" = "signs/signs.md" }] },
+    { "Вкладки" = [
+        { "Ознаки 🚧" = ["tab_signs/index.md"] },
+        { "Налаштування таблиць 🚧" = [
+            "tab_options/index.md",
+            { "Альтернативи в колонках та рядках 🚧" = [
+                "tab_options/row_column/index.md",
+                { "Опції виводу 🚧" = "tab_options/row_column/show_options.md" },
+                { "Сортування 🚧" = "tab_options/row_column/sorting.md" }]
+            },
+            { "Значущість різниць 🚧" = [
+                "tab_options/significance_of_differences/index.md",
+                { "Порівняння 🚧" = "tab_options/significance_of_differences/comparing.md" },
+                { "Колонка виводу 🚧" = "tab_options/significance_of_differences/output_column.md" },
+                { "Символи 🚧" = "tab_options/significance_of_differences/symbols.md" }]
+            },
+            { "TopBox 🚧" = ["tab_options/topbox/index.md"] },
+        ] },
+        { "Ваги, Спліти, Фільтри 🚧" = [
+            "tab_weight_split_filter/index.md",
+            { "Ваги 🚧" = "tab_weight_split_filter/weight.md" },
+            { "Спліт 🚧" = "tab_weight_split_filter/split.md" },
+            { "Фільтр 🚧" = "tab_weight_split_filter/filter.md" },
+        ]
+        },
+        { "Трансформація 🚧" = [
+            "tab_transformation/index.md",
+            { "Номінальні/Мультиваріантні 🚧" = "tab_transformation/make_nj.md" },
+            { "Метричні 🚧" = "tab_transformation/make_m.md" },
+            { "loop_sign 🚧" = "tab_transformation/loop_sign.md" },
+        ]
+        },
+        { "Стилі таблиць 🚧" = [
+            "tab_styles/index.md",
+        ]
+        },
+        { "Вивід 🚧" = [
+            "tab_output/index.md",
+        ]
+        },
+    ] },
+    { "Screenshots" = "screenshots.md" },
+    { "Логування 🚧" = "logging.md" },
+    { "Resources" = [
+        { "Download" = "download.md" },
+        { "ToDo" = "todo.md" },
+        { "Changelog" = "changelog.md" },
+        { "Eula" = "eula.md" },
+        { "Credits" = "credits.md" }
+    ]
+    },
 ]
 
 [project.extra.analytics]
@@ -38,13 +75,23 @@ property = "G-MRD6PRZJWH"
 [project.markdown_extensions.zensical.extensions.glightbox]
 auto_caption = true
 [project.markdown_extensions.pymdownx.blocks.caption]
-
+[project.markdown_extensions.toc]
+permalink = true
 
 [project.theme]
 name = "material"
 logo = "assets/DataTable2.png"
 favicon = "assets/DataTable2.ico"
 language = "uk"
+features = [
+    "toc.follow",
+    "navigation.top",
+    #    "navigation.tabs",
+    #    "navigation.tabs.sticky",
+    #    "navigation.sections",
+    #    "navigation.expand",
+    "navigation.indexes",
+]
 
 
 [build]

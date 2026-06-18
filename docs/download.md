@@ -6,7 +6,7 @@ title: Download
 
 ### DataTable2.78
 
-Завантажити [DataTable2.78 (Portable)](assets/downloads/DataTable2.78.zip)
+Завантажити: [DataTable2.78](assets/downloads/DataTable2.78.zip)
 
 ### Інструкція
 
