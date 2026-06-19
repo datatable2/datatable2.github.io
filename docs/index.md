@@ -30,7 +30,7 @@ __DataTable2__ — це десктопна програма для роботи 
 
 ## Подяка
 
-Нові версії __DataTable__ вийшли за сприянням [__CBR__](https://cbr.com.ua) (Consumer and Business Research), української компанії, що проводить маркетингові дослідження повного циклу.
+Нові версії __DataTable__ вийшли за сприяння [__CBR__](https://cbr.com.ua) (Consumer and Business Research) — української компанії, що проводить маркетингові дослідження повного циклу.
 
 [![cbr.png](assets/images/sponsored/cbr.png)](https://cbr.com.ua)
 

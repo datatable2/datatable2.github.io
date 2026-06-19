@@ -73,6 +73,7 @@ property = "G-MRD6PRZJWH"
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.zensical.extensions.glightbox]
+auto = true 
 auto_caption = true
 [project.markdown_extensions.pymdownx.blocks.caption]
 [project.markdown_extensions.toc]
