@@ -34,11 +34,11 @@ nav = [
             { "Фільтр 🚧" = "tab_weight_split_filter/filter.md" },
         ]
         },
-        { "Трансформація 🚧" = [
+        { "Трансформація" = [
             "tab_transformation/index.md",
-            { "Номінальні/Мультиваріантні 🚧" = "tab_transformation/make_nj.md" },
-            { "Метричні 🚧" = "tab_transformation/make_m.md" },
-            { "loop_sign 🚧" = "tab_transformation/loop_sign.md" },
+            { "Номінальні/Мультиваріантні" = "tab_transformation/make_nj.md" },
+            { "Метричні" = "tab_transformation/make_m.md" },
+            { "Команда loop_sign" = "tab_transformation/loop_sign.md" },
         ]
         },
         { "Стилі таблиць 🚧" = [
@@ -82,7 +82,7 @@ pygments_lang_class = true
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.zensical.extensions.glightbox]
-auto = true 
+auto = true
 auto_caption = true
 [project.markdown_extensions.pymdownx.blocks.caption]
 [project.markdown_extensions.toc]
