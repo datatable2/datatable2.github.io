@@ -6,7 +6,7 @@ authors = ["pablissimo77"]
 page_url = "https://datatable2.github.io"
 nav = [
     { "Home" = "index.md" },
-    { "Основні поняття 🚧" = "concepts.md" },
+    { "Основні поняття" = "concepts.md" },
     { "Інтерфейс 🚧" = "interface.md" },
     { "Головне меню 🚧" = "main_menu.md" },
     { "Вікно ознак 🚧" = ["signs/index.md", { "Вигляд 🚧" = "signs/signs.md" }] },
@@ -66,6 +66,15 @@ nav = [
 provider = "google"
 property = "G-MRD6PRZJWH"
 
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.snippets]
 [project.markdown_extensions.pymdownx.caret]
 [project.markdown_extensions.pymdownx.keys]
 [project.markdown_extensions.pymdownx.mark]
@@ -92,6 +101,9 @@ features = [
     #    "navigation.sections",
     #    "navigation.expand",
     "navigation.indexes",
+    "content.code.copy",
+    "content.code.select",
+    "content.code.annotate"
 ]
 
 
