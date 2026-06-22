@@ -2,7 +2,6 @@ name: Documentation
 on:
   push:
     branches:
-      - master
       - main
 permissions:
   contents: read
@@ -21,7 +20,13 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install zensical
-      - run: zensical build --clean 
+
+      - name: Inject Discord webhook secrets
+        run: |
+          sed -i "s|__DISCORD_WEBHOOK_ID__|${{ secrets.DISCORD_WEBHOOK_ID }}|g" docs/feedback.md
+          sed -i "s|__DISCORD_WEBHOOK_TOKEN__|${{ secrets.DISCORD_WEBHOOK_TOKEN }}|g" docs/feedback.md
+
+      - run: zensical build --clean
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site

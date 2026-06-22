@@ -24,7 +24,7 @@
 </form>
 
 <script>
-const webhookUrl = 'https://discord.com/api/webhooks/1343158875817381898/lzriSPOQ-tOc6xUP_Pt55winuGyEqmQXY2FO9HbEUjXDwwayR3fSOz0YvceXXjYOhsi3';
+const webhookUrl = 'https://discord.com/api/webhooks/__DISCORD_WEBHOOK_ID__/__DISCORD_WEBHOOK_TOKEN__';
 let selectedFile = null;
 
 function showMessage(text, isSuccess) {
