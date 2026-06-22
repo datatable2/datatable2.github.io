@@ -9,7 +9,7 @@
 <form id="feedbackForm">
   <div style="margin-bottom: 15px;">
     <label for="feedbackEmail">Email:</label>
-    <input type="email" id="feedbackEmail" placeholder="your@email.com" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+    <input type="email" id="feedbackEmail" placeholder="your@email.com" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
   </div>
   
   <div style="margin-bottom: 15px;">
