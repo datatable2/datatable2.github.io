@@ -61,7 +61,7 @@ nav = [
         { "Credits" = "credits.md" }
     ]
     },
-    { "Feedback 🚧" = "feedback.md" },
+    { "Feedback" = "feedback.md" },
 ]
 
 [project.extra.analytics]
