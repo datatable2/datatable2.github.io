@@ -1,5 +1,9 @@
 # Відгук
 
+Напишіть свій відгук, питання, повідомлення про помилку або побажання для покращення
+
+При необхідності можна додати скріншот
+
 <div id="feedbackMessage" style="display: none; padding: 12px; border-radius: 4px; margin-bottom: 15px; font-weight: bold;"></div>
 
 <form id="feedbackForm">
