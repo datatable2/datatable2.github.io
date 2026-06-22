@@ -1,33 +1,30 @@
----
-title: Download
----
-
 # Завантаження
 
 ### DataTable2.78
 
-Завантажити: [DataTable2.78](assets/downloads/DataTable2.78.zip)
+Завантажити: [DataTable2.79](assets/downloads/DataTable2.79.zip)
 
 ### Інструкція
 
 DataTable2 не має інсталяційного файлу.
 - Завантажте файл на диск.
 - Розархівуйте в зручну для вас папку
-- Запустіть DataTable2.exe або DataTable2.linux
+- Запустіть `DataTable2.exe` або `DataTable2`
 
 Склад ZIP-архіву:
 
-| 📎                             | Опис                                       |
-| ------------------------------ | ------------------------------------------ |
-| 📂lang                         | Файли локалізацій (українська, англійська) |
-| 📂lib                          | Зовнішні бібліотеками                      |
-| 📂styles                       | Стилі таблиць                              |
-| DataTable2.exe                 | Файл запуску (Windows)                     |
-| DataTable2.linux               | Файл запуску (Linux)                       |
+| 📎                       | Опис                                       |
+| ------------------------ | ------------------------------------------ |
+| 📂lang                   | Файли локалізацій (українська, англійська) |
+| 📂lib                    | Зовнішні бібліотеками                      |
+| 📂styles                 | Стилі таблиць                              |
+| DataTable2.exe           | Файл запуску (Windows)                     |
+| DataTable2               | Файл запуску (Linux)                       |
 
 
 
 ### Всі доступні версії
+* [DataTable2.79.zip](assets/downloads/DataTable2.79.zip)
 * [DataTable2.78.zip](assets/downloads/DataTable2.78.zip)
 * [DataTable2.77.zip](assets/downloads/DataTable2.77.zip)
 * [DataTable2.76.zip](assets/downloads/DataTable2.76.zip)

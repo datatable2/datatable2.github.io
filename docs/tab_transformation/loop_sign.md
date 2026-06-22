@@ -1,6 +1,3 @@
----
-title: Трансформація - loop_sign
----
 # Команда `loop_sign`
 
 Приклад `$loop_sign`:
