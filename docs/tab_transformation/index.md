@@ -4,7 +4,7 @@
 
 Закладка "Перетворення" дозволяє створювати нові ознаки всіх трьох типів.
 
-![Перетворення (Windows 11)](../assets/images/interface.transform.png)
+![Перетворення (Windows 11)](../assets/images/interface_transform.png)
 /// caption
 Перетворення (Windows 11)
 ///

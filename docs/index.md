@@ -6,7 +6,7 @@ __DataTable2__ — це десктопна програма для роботи 
 
 ---
 
-![About](assets/images/About.2.78.png){data-gallery="About"}
+![About](assets/images/About_2_78.png){data-gallery="About"}
 
 
 
