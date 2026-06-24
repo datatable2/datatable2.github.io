@@ -14,9 +14,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # Оновлено для підтримки Node.js 24
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      # Оновлено для підтримки Node.js 24 (це також має прибрати попередження про punycode)
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -31,11 +33,14 @@ jobs:
       - name: Build documentation
         run: zensical build --clean
 
-      - uses: actions/configure-pages@v5
+      # Оновлено для підтримки Node.js 24
+      - uses: actions/configure-pages@v6
 
+      # Залишається v5, оскільки тут попереджень не було, але можна перевірити наявність новішої
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
-      - uses: actions/deploy-pages@v4
+      # Оновлено для підтримки Node.js 24
+      - uses: actions/deploy-pages@v5
         id: deployment
