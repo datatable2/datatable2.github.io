@@ -57,3 +57,22 @@
 Вкладка Вивід
 ///
 
+<script>
+window.addEventListener('load', function() {
+  console.log('Reinitializing GLightbox...');
+  
+  // Видаляємо aria-hidden конфлікт
+  const container = document.querySelector('[data-md-component="container"]');
+  if (container) {
+    container.removeAttribute('aria-hidden');
+  }
+  
+  // Переініціалізуємо
+  if (window.GLightbox) {
+    setTimeout(() => {
+      window.GLightbox.reload();
+      console.log('GLightbox reloaded');
+    }, 100);
+  }
+});
+</script>
