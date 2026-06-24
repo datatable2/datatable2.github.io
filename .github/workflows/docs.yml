@@ -14,21 +14,28 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/configure-pages@v5
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-      - run: pip install zensical
+          python-version: '3.12'
+
+      - name: Install zensical
+        run: pip install zensical
 
       - name: Inject Discord webhook secrets
         run: |
           sed -i "s|__DISCORD_WEBHOOK_ID__|${{ secrets.DISCORD_WEBHOOK_ID }}|g" docs/feedback.md
           sed -i "s|__DISCORD_WEBHOOK_TOKEN__|${{ secrets.DISCORD_WEBHOOK_TOKEN }}|g" docs/feedback.md
 
-      - run: zensical build --clean
-      - uses: actions/upload-pages-artifact@v4
+      - name: Build documentation
+        run: zensical build --clean
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
+
       - uses: actions/deploy-pages@v4
         id: deployment
