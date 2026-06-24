@@ -32,11 +32,11 @@
 
 
 
-![Вкладка Ознаки](assets/images/interface.tab.signs.png){ data-gallery="interface.tab.signs.png" }
+![Вкладка Ознаки](assets/images/interface.tab.signs.png){ data-gallery="1" }
 /// caption
 Вкладка Ознаки
 ///
-![Вкладка Налаштування таблиць](assets/images/interface.tab.table_options.png){ data-gallery="interface.tab.table_options.png" }
+![Вкладка Налаштування таблиць](assets/images/interface.tab.table_options.png){ data-gallery="2" }
 /// caption
 Вкладка Налаштування таблиць
 ///
