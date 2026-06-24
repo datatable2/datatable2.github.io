@@ -8,7 +8,7 @@ page_url = "https://datatable2.github.io"
 nav = [
     { "Home" = "index.md" },
     { "Основні поняття" = "concepts.md" },
-    { "Інтерфейс 🚧" = "interface.md" },
+    { "Інтерфейс" = "interface.md" },
     { "Головне меню 🚧" = "main_menu.md" },
     { "Вікно ознак 🚧" = ["signs/index.md", { "Вигляд 🚧" = "signs/signs.md" }] },
     { "Вкладки" = [
