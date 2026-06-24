@@ -1,10 +1,10 @@
 [project]
 name = "datatable2-docs"
 version = "0.1.0"
-description = "Add your description here"
+description = "DataTable2 Documentation"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pillow>=12.2.0",
-    "zensical>=0.0.43",
+    "zensical==0.0.45",
 ]

@@ -23,7 +23,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install zensical
-        run: pip install zensical
+        run: pip install zensical==0.0.45
 
       - name: Inject Discord webhook secrets
         run: |

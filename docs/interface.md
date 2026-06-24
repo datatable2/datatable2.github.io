@@ -1,7 +1,7 @@
 # Інтерфейс
 
 
-![Інтерфейс](assets/images/interface_main_window.png){: data-gallery="interface_main_window_png"}
+![Інтерфейс](assets/images/interface_main_window.png)
 /// caption
 Інтерфейс
 ///
@@ -31,28 +31,32 @@
 ---
 
 
-
-![Вкладка Ознаки](assets/images/interface_tab_signs.png){: data-gallery="interface_tab_signs_png"}
+### Вкладка Ознаки
+![Вкладка Ознаки](assets/images/interface_tab_signs.png)
 /// caption
 Вкладка Ознаки
 ///
-![Вкладка Налаштування таблиць](assets/images/interface_tab_table_options.png){: data-gallery="interface_tab_table_options_png"}
-/// caption
+### Вкладка Налаштування таблиць
+![Вкладка Налаштування таблиць](assets/images/interface_tab_table_options.png)
 Вкладка Налаштування таблиць
 ///
-![Вкладка Ваги+Спліт+Фільтр](assets/images/interface_tab_weight_split_filter.png){: data-gallery="interface_tab_weight_split_filter_png"}
+### Вкладка Ваги+Спліт+Фільтр
+![Вкладка Ваги+Спліт+Фільтр](assets/images/interface_tab_weight_split_filter.png)
 /// caption
 Вкладка Ваги+Спліт+Фільтр
 ///
-![Вкладка Перетворення](assets/images/interface_tab_transformation.png){: data-gallery="interface_tab_transformation_png"}
+### Вкладка Перетворення
+![Вкладка Перетворення](assets/images/interface_tab_transformation.png)
 /// caption
 Вкладка Перетворення
 ///
-![Вкладка Стилі](assets/images/interface_tab_styles.png){: data-gallery="interface_tab_styles_png"}
+### Вкладка Стилі
+![Вкладка Стилі](assets/images/interface_tab_styles.png)
 /// caption
 Вкладка Стилі
 ///
-![Вкладка Вивід](assets/images/interface_tab_output.png){: data-gallery="interface_tab_output_png"}
+### Вкладка Вивід
+![Вкладка Вивід](assets/images/interface_tab_output.png)
 /// caption
 Вкладка Вивід
 ///
