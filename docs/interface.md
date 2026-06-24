@@ -1,7 +1,7 @@
 # Інтерфейс
 
 
-![Інтерфейс](assets/images/interface.main_window.png){: data-gallery="interface.main_window.png"}
+![Інтерфейс](assets/images/interface.main_window.png){: data-gallery="interface_main_window_png"}
 /// caption
 Інтерфейс
 ///
@@ -32,47 +32,27 @@
 
 
 
-![Вкладка Ознаки](assets/images/interface.tab.signs.png){: data-gallery="interface.tab.signs.png"}
+![Вкладка Ознаки](assets/images/interface.tab.signs.png){: data-gallery="interface_tab_signs_png"}
 /// caption
 Вкладка Ознаки
 ///
-![Вкладка Налаштування таблиць](assets/images/interface.tab.table_options.png){: data-gallery="interface.tab.table_options.png"}
+![Вкладка Налаштування таблиць](assets/images/interface.tab.table_options.png){: data-gallery="interface_tab_table_options_png"}
 /// caption
 Вкладка Налаштування таблиць
 ///
-![Вкладка Ваги+Спліт+Фільтр](assets/images/interface.tab.weight_split_filter.png){: data-gallery="interface.tab.weight_split_filter.png"}
+![Вкладка Ваги+Спліт+Фільтр](assets/images/interface.tab.weight_split_filter.png){: data-gallery="interface_tab_weight_split_filter_png"}
 /// caption
 Вкладка Ваги+Спліт+Фільтр
 ///
-![Вкладка Перетворення](assets/images/interface.tab.transformation.png){: data-gallery="interface.tab.transformation.png"}
+![Вкладка Перетворення](assets/images/interface.tab.transformation.png){: data-gallery="interface_tab_transformation_png"}
 /// caption
 Вкладка Перетворення
 ///
-![Вкладка Стилі](assets/images/interface.tab.styles.png){: data-gallery="interface.tab.styles.png"}
+![Вкладка Стилі](assets/images/interface.tab.styles.png){: data-gallery="interface_tab_styles_png"}
 /// caption
 Вкладка Стилі
 ///
-![Вкладка Вивід](assets/images/interface.tab.output.png){: data-gallery="interface.tab.output.png"}
+![Вкладка Вивід](assets/images/interface.tab.output.png){: data-gallery="interface_tab_output_png"}
 /// caption
 Вкладка Вивід
 ///
-
-<script>
-window.addEventListener('load', function() {
-  console.log('Reinitializing GLightbox...');
-  
-  // Видаляємо aria-hidden конфлікт
-  const container = document.querySelector('[data-md-component="container"]');
-  if (container) {
-    container.removeAttribute('aria-hidden');
-  }
-  
-  // Переініціалізуємо
-  if (window.GLightbox) {
-    setTimeout(() => {
-      window.GLightbox.reload();
-      console.log('GLightbox reloaded');
-    }, 100);
-  }
-});
-</script>
