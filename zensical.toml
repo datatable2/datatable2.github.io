@@ -64,6 +64,24 @@ nav = [
     { "Feedback" = "feedback.md" },
 ]
 
+[project.theme]
+name = "material"
+logo = "assets/DataTable2.png"
+favicon = "assets/DataTable2.ico"
+language = "uk"
+features = [
+    "toc.follow",
+    "navigation.top",
+    #    "navigation.tabs",
+    #    "navigation.tabs.sticky",
+    #    "navigation.sections",
+    #    "navigation.expand",
+    "navigation.indexes",
+    "content.code.copy",
+    "content.code.select",
+    "content.code.annotate"
+]
+
 [project.extra.analytics]
 provider = "google"
 property = "G-MRD6PRZJWH"
@@ -99,23 +117,7 @@ description = """
     make our documentation better.
 """
 
-[project.theme]
-name = "material"
-logo = "assets/DataTable2.png"
-favicon = "assets/DataTable2.ico"
-language = "uk"
-features = [
-    "toc.follow",
-    "navigation.top",
-    #    "navigation.tabs",
-    #    "navigation.tabs.sticky",
-    #    "navigation.sections",
-    #    "navigation.expand",
-    "navigation.indexes",
-    "content.code.copy",
-    "content.code.select",
-    "content.code.annotate"
-]
+
 
 
 [build]
