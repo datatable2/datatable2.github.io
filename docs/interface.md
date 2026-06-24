@@ -1,7 +1,7 @@
 # Інтерфейс
 
 
-![Інтерфейс](assets/images/interface.main_window.png){ data-gallery="interface.main_window.png" }
+![Інтерфейс](assets/images/interface.main_window.png)
 /// caption
 Інтерфейс
 ///
@@ -32,27 +32,27 @@
 
 
 
-![Вкладка Ознаки](assets/images/interface.tab.signs.png){ data-gallery="1" }
+![Вкладка Ознаки](assets/images/interface.tab.signs.png)
 /// caption
 Вкладка Ознаки
 ///
-![Вкладка Налаштування таблиць](assets/images/interface.tab.table_options.png){ data-gallery="2" }
+![Вкладка Налаштування таблиць](assets/images/interface.tab.table_options.png)
 /// caption
 Вкладка Налаштування таблиць
 ///
-![Вкладка Ваги+Спліт+Фільтр](assets/images/interface.tab.weight_split_filter.png){ data-gallery="interface.tab.weight_split_filter.png" }
+![Вкладка Ваги+Спліт+Фільтр](assets/images/interface.tab.weight_split_filter.png)
 /// caption
 Вкладка Ваги+Спліт+Фільтр
 ///
-![Вкладка Перетворення](assets/images/interface.tab.transformation.png){ data-gallery="interface.tab.transformation.png" }
+![Вкладка Перетворення](assets/images/interface.tab.transformation.png)
 /// caption
 Вкладка Перетворення
 ///
-![Вкладка Стилі](assets/images/interface.tab.styles.png){ data-gallery="interface.tab.styles.png" }
+![Вкладка Стилі](assets/images/interface.tab.styles.png)
 /// caption
 Вкладка Стилі
 ///
-![Вкладка Вивід](assets/images/interface.tab.output.png){ data-gallery="interface.tab.output.png" }
+![Вкладка Вивід](assets/images/interface.tab.output.png)
 /// caption
 Вкладка Вивід
 ///
