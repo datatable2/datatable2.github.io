@@ -9,7 +9,6 @@ __DataTable2__ — це десктопна програма для роботи 
 ![About](assets/images/About_2_80.png){data-gallery="About"}
 
 
-
 ## Що вміє програма?
 
 - __Відкривати та зберігати FRM-масиви__ (бінарний формат даних опитувань)
@@ -36,9 +35,9 @@ __DataTable2__ — це десктопна програма для роботи 
 [![cbr.png](assets/images/sponsored/cbr.png)](https://cbr.com.ua){:target="_blank"}
 
 
+## Підтримати проєкт
 
+[![support_by_kofi.png](assets/images/support_by_kofi.png){.off-glb}](https://ko-fi.com/T6T41VQG8U){:target="_blank"}
 
-
-
-
+[![support_by_monobank.png](assets/images/support_by_monobank.png){.off-glb}](https://send.monobank.ua/jar/6tdinnmr65){:target="_blank"}
 

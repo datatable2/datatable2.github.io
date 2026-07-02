@@ -10,7 +10,7 @@ nav = [
     { "Основні поняття" = "concepts.md" },
     { "Інтерфейс" = "interface.md" },
     { "Головне меню 🚧" = "main_menu.md" },
-    { "Вікно ознак 🚧" = ["signs/index.md", { "Вигляд 🚧" = "signs/signs.md" }] },
+    { "Вікно ознак 🚧" = ["signs/index.md", { "Ознаки 🚧" = "signs/signs.md" }, { "Альтернативи 🚧" = "signs/alts.md" }] },
     { "Вкладки" = [
         { "Ознаки 🚧" = ["tab_signs/index.md"] },
         { "Налаштування таблиць 🚧" = [

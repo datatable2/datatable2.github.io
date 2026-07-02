@@ -9,12 +9,12 @@
 
 1. Головне меню
 2. Швидкий пошук ознак
-3. Вікно ознак
-4. Вікно альтернатив
+3. [Вікно ознак](signs/index.md)
+4. [Вікно альтернатив](signs/alts.md)
 5. Кнопка Старт/Стоп
 6. Прогрес-бар
-7. Вікно вкладок
-8. Вікно логування
+7. [Вікно вкладок](tab_signs/index.md)
+8. [Вікно логування](logging.md)
 9. Статус-бар
 
 ## Вкладки головного вікна
@@ -31,31 +31,31 @@
 ---
 
 
-### Вкладка Ознаки
+###  [Вкладка Ознаки](signs/index.md)
 ![Вкладка Ознаки](assets/images/interface_tab_signs.png)
 /// caption
 Вкладка Ознаки
 ///
-### Вкладка Налаштування таблиць
+### [Вкладка Налаштування таблиць](tab_options/index.md)
 ![Вкладка Налаштування таблиць](assets/images/interface_tab_table_options.png)
 Вкладка Налаштування таблиць
 ///
-### Вкладка Ваги+Спліт+Фільтр
+### [Вкладка Ваги+Спліт+Фільтр](tab_weight_split_filter/index.md)
 ![Вкладка Ваги+Спліт+Фільтр](assets/images/interface_tab_weight_split_filter.png)
 /// caption
 Вкладка Ваги+Спліт+Фільтр
 ///
-### Вкладка Перетворення
+### [Вкладка Перетворення](tab_transformation/index.md)
 ![Вкладка Перетворення](assets/images/interface_tab_transformation.png)
 /// caption
 Вкладка Перетворення
 ///
-### Вкладка Стилі
+### [Вкладка Стилі](tab_styles/index.md)
 ![Вкладка Стилі](assets/images/interface_tab_styles.png)
 /// caption
 Вкладка Стилі
 ///
-### Вкладка Вивід
+### [Вкладка Вивід](tab_output/index.md)
 ![Вкладка Вивід](assets/images/interface_tab_output.png)
 /// caption
 Вкладка Вивід
