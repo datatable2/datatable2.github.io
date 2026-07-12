@@ -6,5 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pillow>=12.3.0",
-    "zensical==0.0.47",
+    "zensical==0.0.50",
 ]

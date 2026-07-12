@@ -65,6 +65,7 @@ nav = [
 ]
 
 [project.theme]
+#variant = "classic"
 name = "material"
 logo = "assets/DataTable2.png"
 favicon = "assets/DataTable2.ico"
