@@ -6,8 +6,7 @@ __DataTable2__ — це десктопна програма для роботи 
 
 ---
 
-![About](assets/images/About_2_78.png){data-gallery="About"}
-
+![About](assets/images/About_2_80.png){data-gallery="About"}
 
 
 ## Що вміє програма?
@@ -23,6 +22,7 @@ __DataTable2__ — це десктопна програма для роботи 
 - __Трансформація__ — створення нових змінних 
 - __Експорт таблиць в Excel (XLSX)__ — таблиці одразу формуються як Excel-файл
 - __Експорт масиву в SPSS (.sav)__ — для подальшого аналізу в SPSS
+- __Експорт масиву або окремих ознак в CSV (.csv)__ — для подальшого аналізу та імпорту в інші статистичні програми
 - __Стилі таблиць__ — налаштування зовнішнього вигляду таблиць
 - __Локалізація__ — українська та англійська мови інтерфейсу
 
@@ -35,9 +35,9 @@ __DataTable2__ — це десктопна програма для роботи 
 [![cbr.png](assets/images/sponsored/cbr.png)](https://cbr.com.ua){:target="_blank"}
 
 
+## Підтримати проєкт
 
+[![support_by_kofi.png](assets/images/support_by_kofi.png){.off-glb}](https://ko-fi.com/T6T41VQG8U){:target="_blank"}
 
-
-
-
+[![support_by_monobank.png](assets/images/support_by_monobank.png){.off-glb}](https://send.monobank.ua/jar/6tdinnmr65){:target="_blank"}
 

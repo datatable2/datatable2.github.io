@@ -1,8 +1,8 @@
 # Завантаження
 
-### DataTable2.78
+### DataTable2.80
 
-Завантажити: [DataTable2.79](assets/downloads/DataTable2.79.zip)
+Завантажити: [DataTable2.80](assets/downloads/DataTable2.80.zip)
 
 ### Інструкція
 
@@ -24,6 +24,7 @@ DataTable2 не має інсталяційного файлу.
 
 
 ### Всі доступні версії
+* [DataTable2.80.zip](assets/downloads/DataTable2.80.zip)
 * [DataTable2.79.zip](assets/downloads/DataTable2.79.zip)
 * [DataTable2.78.zip](assets/downloads/DataTable2.78.zip)
 * [DataTable2.77.zip](assets/downloads/DataTable2.77.zip)
