@@ -2,14 +2,15 @@
 
 ### DataTable2.80
 
-Завантажити: [DataTable2.80](assets/downloads/DataTable2.80.zip)
+Завантажити: [DataTable2.81](assets/downloads/DataTable2.81.zip)
 
 ### Інструкція
 
-DataTable2 не має інсталяційного файлу.
-- Завантажте файл на диск.
-- Розархівуйте в зручну для вас папку
-- Запустіть `DataTable2.exe` або `DataTable2`
+DataTable2 не має інсталяційного файлу:
+
+* Завантажте файл на диск.
+* Розархівуйте в зручну для вас папку
+* Запустіть `DataTable2.exe` або `DataTable2`
 
 Склад ZIP-архіву:
 
@@ -24,6 +25,7 @@ DataTable2 не має інсталяційного файлу.
 
 
 ### Всі доступні версії
+* [DataTable2.81.zip](assets/downloads/DataTable2.81.zip)
 * [DataTable2.80.zip](assets/downloads/DataTable2.80.zip)
 * [DataTable2.79.zip](assets/downloads/DataTable2.79.zip)
 * [DataTable2.78.zip](assets/downloads/DataTable2.78.zip)
